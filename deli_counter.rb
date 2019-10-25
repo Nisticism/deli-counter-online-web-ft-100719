@@ -11,7 +11,7 @@ def line(katz_deli)
       linestring += "#{counter}. #{line_spot} "
     counter += 1 
   end
-  puts
+  puts line_string
 end
 
 def take_a_number
