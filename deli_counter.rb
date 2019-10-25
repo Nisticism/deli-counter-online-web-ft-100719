@@ -2,9 +2,9 @@
 
 def line(katz_deli)
   if katz_deli.size == 0
-    print "The line is currently empty."
+    puts "The line is currently empty."
   else
-    print "The line is currently: "
+    puts "The line is currently: "
   end
   counter = 1
   katz_deli.each do |line_spot|
