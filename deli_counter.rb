@@ -8,7 +8,7 @@ def line(katz_deli)
   end
   counter = 1
   katz_deli.each do |line_spot|
-    print "#{counter}. #{line_spot} "
+    puts "#{counter}. #{line_spot} "
     counter += 1 
   end
 end
