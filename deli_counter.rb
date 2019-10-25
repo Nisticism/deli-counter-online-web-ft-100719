@@ -5,6 +5,7 @@ def line(katz_deli)
     print "The line is currently empty."
   else
     print "The line is currently: "
+  end
   counter = 1
   katz_deli.each do |line_spot|
     print "#{counter}. #{line_spot} "
