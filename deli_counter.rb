@@ -9,9 +9,10 @@ def line(katz_deli)
     counter = 1
     katz_deli.each do |line_spot|
       linestring += "#{counter}. #{line_spot} "
-    counter += 1 
+      counter += 1 
+    end
+    puts line_string
   end
-  puts line_string
 end
 
 def take_a_number
